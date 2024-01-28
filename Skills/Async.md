@@ -1,89 +1,89 @@
 ## Asynchronous programming
 
 - Theory
-  - Event loop 🔬 researched
-  - `try..catch` 🙋 explained
-  - Non-blocking 🙋	explained
-  - Async I/O 🙋 explained
-  - Thread pool 🙋 explained
-  - Pattern Reactor 🙋 explained
-  - CAS operations 👂 heard
-  - epoll 👂 heard
-  - kqueue 👂 heard
-  - Completion ports 👂 heard
-  - Event ports 👂 heard
-  - libuv 🔬 researched
-  - Race conditions 🖐️ used
-  - Dead locks 🖐️ used
-  - Live locks 🖐️ used
-  - Concurrent programming 🖐️ used
-  - Parallel programming 🖐️ used
-  - Actor Model 🖐️ used
-  - Thread 🖐️ used
-  - Process 🖐️ used
+  - Event loop: 🔬 researched
+  - `try..catch`: 🙋 explained
+  - Non-blocking: 🙋 explained
+  - Async I/O: 🙋 explained
+  - Thread pool: 🙋 explained
+  - Pattern Reactor: 🙋 explained
+  - CAS operations: 👂 heard
+  - epoll: 👂 heard
+  - kqueue: 👂 heard
+  - Completion ports: 👂 heard
+  - Event ports: 👂 heard
+  - libuv: 🔬 researched
+  - Race conditions: 🖐️ used
+  - Dead locks: 🖐️ used
+  - Live locks: 🖐️ used
+  - Concurrent programming: 🖐️ used
+  - Parallel programming: 🖐️ used
+  - Actor Model: 🖐️ used
+  - Thread: 🖐️ used
+  - Process: 🖐️ used
 - Async contracts
-  - Callbacks 🙋 explained
-  - Callback-last-error-first 🙋 explained
-  - Thenable 🙋 explained
-  - Promise 🙋 explained
-  - Async/await 🙋 explained
-  - Future 👂 heard
-  - Deferred 🖐️ used
-  - Sync generator 🖐️ used
-  - Async Generator 🖐️ used
-  - Async Iterator 🖐️ used
-  - Event 🖐️ used
+  - Callbacks: 🙋 explained
+  - Callback-last-error-first: 🙋 explained
+  - Thenable: 🙋 explained
+  - Promise: 🙋 explained
+  - Async/await: 🙋 explained
+  - Future: 👂 heard
+  - Deferred: 🖐️ used
+  - Sync generator: 🖐️ used
+  - Async Generator: 🖐️ used
+  - Async Iterator: 🖐️ used
+  - Event: 🖐️ used
   - Coroutine
   - Goroutine
-  - Signal 🖐️ used
-  - Stream 🙋 explained
-  - Chain of responsibility 🙋 explained
-  - Middleware 🙋 explained
-  - Locks 🙋 explained
+  - Signal: 🖐️ used
+  - Stream: 🙋 explained
+  - Chain of responsibility: 🙋 explained
+  - Middleware: 🙋 explained
+  - Locks: 🙋 explained
 - Async adapters and utils
-  - callbackify 🖐️ used
-  - promisify 🖐️ used
-  - asyncify 🖐️ used
-  - Callbacks compose 👂 heard
-  - Async compose 🖐️ used
+  - callbackify: 🖐️ used
+  - promisify: 🖐️ used
+  - asyncify: 🖐️ used
+  - Callbacks compose: 👂 heard
+  - Async compose: 🖐️ used
 - Async abstractions interfaces
-  - EventEmitter 🖐️ used
-  - Observable/Observer 🖐️ used
-  - Readable 🖐️ used
-  - Writable 🖐️ used
-  - Transform 🖐️ used
-  - Async Pool 🖐️ used
-  - Async Queue 🖐️ used
-  - Async Collector 🖐️ used
-  - Semaphore 👂 heard
-  - Mutex 👂 heard
-  - Spin Lock 👂 heard
+  - EventEmitter: 🖐️ used
+  - Observable/Observer: 🖐️ used
+  - Readable: 🖐️ used
+  - Writable: 🖐️ used
+  - Transform: 🖐️ used
+  - Async Pool: 🖐️ used
+  - Async Queue: 🖐️ used
+  - Async Collector: 🖐️ used
+  - Semaphore: 👂 heard
+  - Mutex: 👂 heard
+  - Spin Lock: 👂 heard
 - JavaScript & Node.js specific
   - Timers
-  - `setImmediate` 🙋 explained
-  - `nextTick` 🙋 explained
-  - AbortController 🖐️ used
-  - AbortSignal 🖐️ used
-  - Promise unhandled rejection 🖐️ used
+  - `setImmediate`: 🙋 explained
+  - `nextTick`: 🙋 explained
+  - AbortController: 🖐️ used
+  - AbortSignal: 🖐️ used
+  - Promise unhandled rejection: 🖐️ used
   - Promise double resolve
-  - Atomics 👂 heard
-  - High resolution clock 👂 heard
-  - Callback hell 🙋 explained
-  - Promise hell 🙋 explained
-  - ref() and unref() 🖐️ used
-  - Error handling in async code 🖐️ used
-  - Better stack traces with return await 🙋 explained
-  - JSON streaming serialization 🖐️ used
-  - AsyncLocalStorage 👂 heard
-  - AsyncResource 👂 heard
+  - Atomics: 👂 heard
+  - High resolution clock: 👂 heard
+  - Callback hell: 🙋 explained
+  - Promise hell: 🙋 explained
+  - ref() and unref(): 🖐️ used
+  - Error handling in async code: 🖐️ used
+  - Better stack traces with return await: 🙋 explained
+  - JSON streaming serialization: 🖐️ used
+  - AsyncLocalStorage: 👂 heard
+  - AsyncResource: 👂 heard
 - Techniques
-  - Async.js library 🖐️ used
-  - RxJS library 🖐️ used
-  - Promise.all 🙋 explained
-  - Promise.allSettled 🙋 explained
-  - Promise.race 🙋 explained
-  - Promise.any 🙋 explained
-  - Web Locks API 👂 heard
-  - IPC 🖐️ used
-  - Channel API 🖐️ used
-  - Revealing constructor 🙋 explained
+  - Async.js library: 🖐️ used
+  - RxJS library: 🖐️ used
+  - Promise.all: 🙋 explained
+  - Promise.allSettled: 🙋 explained
+  - Promise.race: 🙋 explained
+  - Promise.any: 🙋 explained
+  - Web Locks API: 👂 heard
+  - IPC: 🖐️ used
+  - Channel API: 🖐️ used
+  - Revealing constructor: 🙋 explained
